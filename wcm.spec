@@ -1,11 +1,11 @@
 Summary:	Wayfire Config Manager
 Name:		wcm
-Version:	0.8.0
+Version:	0.9.0
 Release:	1
 License:	MIT
 Group:		Applications
 Source0:	https://github.com/WayfireWM/wcm/releases/download/v%{version}/%{name}-%{version}.tar.xz
-# Source0-md5:	72710710a4c3c1a056b5cb8e2e2f3122
+# Source0-md5:	5a2c98a93a14c6f43b2e8d76c2e09df3
 URL:		https://wayfire.org/
 BuildRequires:	gtk+3-devel >= 3.24
 BuildRequires:	gtkmm3-devel
@@ -19,7 +19,7 @@ BuildRequires:	ninja
 BuildRequires:	pkgconfig
 BuildRequires:	rpmbuild(macros) >= 1.736
 BuildRequires:	tar >= 1:1.22
-BuildRequires:	wayfire-devel
+BuildRequires:	wayfire-devel >= 0.9.0
 BuildRequires:	wayland-devel
 BuildRequires:	wayland-protocols >= 1.17
 BuildRequires:	wf-config >= 0.6.0
