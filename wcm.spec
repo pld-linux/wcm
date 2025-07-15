@@ -1,7 +1,7 @@
 Summary:	Wayfire Config Manager
 Name:		wcm
 Version:	0.9.0
-Release:	3
+Release:	4
 License:	MIT
 Group:		Applications
 Source0:	https://github.com/WayfireWM/wcm/releases/download/v%{version}/%{name}-%{version}.tar.xz
